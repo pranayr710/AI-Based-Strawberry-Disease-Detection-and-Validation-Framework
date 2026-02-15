@@ -1,0 +1,38 @@
+# Datasets and Images
+strawbery images/
+patches_img_name_2025_04_25/
+Label-Checking-Tool-main/imgs/
+Label-Checking-Tool-main/image_patches_20250426/
+Label-Checking-Tool-main/leaf_seg/
+Label-Checking-Tool-main/label_overlap_pipeline/
+Label-Checking-Tool-main/runs/
+
+# Large Model Files
+*.pt
+*.onnx
+
+# Python Virtual Environments
+.venv/
+venv/
+venv310/
+yolo_seg_env/
+**/__pycache__/
+*.pyc
+
+# Large Data and Logs
+# Only ignore large CSV files (roughly > 1MB)
+Label-Checking-Tool-main/combined.csv
+Label-Checking-Tool-main/mg_yello_green.csv
+Label-Checking-Tool-main/output_cm.csv
+Label-Checking-Tool-main/output_cm_nir.csv
+Label-Checking-Tool-main/output_cm_nir_1.csv
+Label-Checking-Tool-main/previous.csv
+Label-Checking-Tool-main/updated_file.csv
+Label-Checking-Tool-main/updated_file_1.csv
+
+*.log
+*.xlsx
+
+# IDEs
+.vscode/
+.idea/
